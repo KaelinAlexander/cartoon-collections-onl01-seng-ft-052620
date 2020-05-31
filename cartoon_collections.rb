@@ -7,8 +7,6 @@ end
 def summon_captain_planet(array)
 	array.map do |element|
 		"#{element.capitalize}!"
-		new_array << element
-		new_array
 	end
 end
 
