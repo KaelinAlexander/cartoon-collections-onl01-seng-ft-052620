@@ -20,7 +20,7 @@ end
 
 def find_the_cheese(array)
 	if array.include?(["cheddar","gouda","camembert"])
-		array.find {|cheese| cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"}
+		array.find {|cheese| cheese = "cheddar" || cheese = "gouda" || cheese = "camembert"}
 		cheese
   else
     nil
